@@ -1,0 +1,14 @@
+{
+  "name": "boardgame-kotlin-carcassonne",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Kotlin Carcassonne module and its Vue front",
+  "homepage": "https://github.com/HMHamster88/boardgame-kotlin-carcassonne",
+  "type": "module",
+  "workspaces": [
+    "front"
+  ],
+  "scripts": {
+    "build-front": "npm run build -w front"
+  }
+}
