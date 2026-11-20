@@ -104,8 +104,8 @@
 
 <script setup lang="ts">
 import type { Player } from 'boardgame-web-common';
-import type { CarcassonneFollower, CarcassonneFollowerType, CarcassonneTileTemplate } from 'carcassonne-back';
-import { getTileTemplate } from 'carcassonne-back';
+import type { CarcassonneFollower, CarcassonneFollowerType, CarcassonneTileTemplate } from '../domain';
+import { getTileTemplate } from '../domain';
 import { computed, useId, type PropType } from 'vue';
 import { cityPaths, pennantPlacements, roadPathData } from './tileArt';
 import { getFeatureAnchor } from './tileGeometry';

@@ -1,4 +1,4 @@
-import type { CarcassonneTileTemplate } from 'carcassonne-back';
+import type { CarcassonneTileTemplate } from '../domain';
 import { edgeMidpoints, type TilePoint } from './tileGeometry';
 
 interface TileRect {

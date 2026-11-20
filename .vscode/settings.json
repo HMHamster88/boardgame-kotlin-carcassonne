@@ -1,0 +1,17 @@
+{
+    "VsCodeTaskButtons.showCounter": true,
+    "VsCodeTaskButtons.tasks": [
+        {
+            "label": "$(tools) Dev build",
+            "task": "Carcassonne: dev build",
+            "tooltip": "Regenerate model types, build the front and the game plugin jar",
+            "alignment": "left"
+        },
+        {
+            "label": "$(package) Release build",
+            "task": "Carcassonne: release build",
+            "tooltip": "Build the Carcassonne release zip (front, jar and classes.dex)",
+            "alignment": "right"
+        }
+    ]
+}

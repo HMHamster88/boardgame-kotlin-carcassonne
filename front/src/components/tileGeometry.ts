@@ -1,4 +1,4 @@
-import type { CarcassonneFeatureType, CarcassonneFieldSide, CarcassonneTileTemplate } from 'carcassonne-back';
+import type { CarcassonneFeatureType, CarcassonneFieldSide, CarcassonneTileTemplate } from '../domain';
 
 export interface TilePoint {
     x: number;

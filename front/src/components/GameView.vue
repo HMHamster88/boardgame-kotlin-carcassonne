@@ -135,7 +135,7 @@ import {
     type CarcassonnePublicGameState,
     type CarcassonneTile,
     type CarcassonneTileTemplate
-} from 'carcassonne-back';
+} from '../domain';
 import { OButton } from '@oruga-ui/oruga-next';
 import { computed, nextTick, onBeforeUnmount, onMounted, onUpdated, ref, watch, type PropType } from 'vue';
 import { useI18n } from 'vue-i18n';

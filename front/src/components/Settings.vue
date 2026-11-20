@@ -13,7 +13,7 @@
 import { OField, OSelect } from '@oruga-ui/oruga-next';
 
 import type { GameAction } from 'boardgame-web-common';
-import type { CarcassonneGameSettings } from 'carcassonne-back';
+import type { CarcassonneGameSettings } from '../domain';
 import { type PropType } from 'vue';
 import { useI18n } from 'vue-i18n';
 

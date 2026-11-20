@@ -21,9 +21,6 @@ export default defineConfig({
         'boardgame-web-common': {
           generate: false
         },
-        'carcassonne-back': {
-
-        },
         '@oruga-ui/oruga-next': {
           generate: false
         }

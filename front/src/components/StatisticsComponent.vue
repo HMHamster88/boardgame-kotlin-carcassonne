@@ -15,7 +15,7 @@
 <script setup lang="ts">
 
 import type { Game } from 'boardgame-web-common';
-import { type CarcassonneGameStatistics, type CarcassonnePublicGameState } from 'carcassonne-back';
+import { type CarcassonneGameStatistics, type CarcassonnePublicGameState } from '../domain';
 import { type PropType } from 'vue';
 import { useI18n } from 'vue-i18n';
 
